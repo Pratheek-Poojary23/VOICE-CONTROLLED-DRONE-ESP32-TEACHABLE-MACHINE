@@ -33,12 +33,10 @@ Additional Accessories: LED, Jumper wires, connectors, resistors, and a universa
 
 ## Assembly Diagram
 
----
-
-### Below is the assembly diagram of the drone:
+Below is the assembly diagram of the drone:
 Assembly Notes <br/>
-  1.Place the MPU6050 at the center of the drone frame for accurate orientation sensing.
-  2.Ensure balanced placement of the Li-Po battery under the frame to maintain the center of gravity.
+  1.Place the MPU6050 at the center of the drone frame for accurate orientation sensing. <br/>
+  2.Ensure balanced placement of the Li-Po battery under the frame to maintain the center of gravity.<br/>
 
 ---
 
@@ -85,8 +83,8 @@ PID values must be tuned using the trial-and-error method to achieve optimal per
 ### To tune the PID values:
 
   * Start with low values and gradually increase them until you achieve stable flight.<br/>
-  *Test with your drone and observe the behavior. Fine-tune the values based on the results.<br/>
-  *The trial-and-error method requires patience, but it ensures the best possible control for your drone.<br/>
+  * Test with your drone and observe the behavior. Fine-tune the values based on the results.<br/>
+  * The trial-and-error method requires patience, but it ensures the best possible control for your drone.<br/>
 ## Special Note on Pitch and Roll PID:
 Since the drone is symmetric, the PID values for pitch and roll are almost identical. You can start by using the same PID values for both axes and adjust them accordingly based on your testing. This symmetry helps simplify the tuning process as both axes will behave similarly under the same control settings.
 
