@@ -29,6 +29,7 @@ The following components are required for building the voice-controlled drone:
 ---
 
 ## Circuit Diagram
+<img src="https://github.com/Pratheek-Poojary23/VOICE-CONTROLLED-DRONE-ESP32-TEACHABLE-MACHINE/blob/main/Images/circuit.png" height="700" width="600">
 
 ---
 
