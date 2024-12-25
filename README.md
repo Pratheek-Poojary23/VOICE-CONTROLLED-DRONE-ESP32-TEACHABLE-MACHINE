@@ -35,8 +35,8 @@ Additional Accessories: LED, Jumper wires, connectors, resistors, and a universa
 
 Below is the assembly diagram of the drone:
 Assembly Notes <br/>
-  1.Place the MPU6050 at the center of the drone frame for accurate orientation sensing. <br/>
-  2.Ensure balanced placement of the Li-Po battery under the frame to maintain the center of gravity.<br/>
+* Place the MPU6050 at the center of the drone frame for accurate orientation sensing. <br/>
+* Ensure balanced placement of the Li-Po battery under the frame to maintain the center of gravity.<br/>
 
 ---
 
@@ -76,9 +76,9 @@ In addition to editing the predefined commands, you will also need to edit the P
 
 PID values must be tuned using the trial-and-error method to achieve optimal performance for your specific drone. Here’s how you can approach it:
 
-  1.Proportional (P): Adjusts the response to the error. A higher value makes the system more responsive but can cause overshooting. <br/>
-  2.Integral (I): Accounts for accumulated past errors. It helps eliminate steady-state error but can lead to oscillations if too high. <br/>
-  3.Derivative (D): Predicts future errors based on the rate of change. It helps smooth out oscillations and reduces overshoot.<br/>
+* Proportional (P): Adjusts the response to the error. A higher value makes the system more responsive but can cause overshooting. <br/>
+* Integral (I): Accounts for accumulated past errors. It helps eliminate steady-state error but can lead to oscillations if too high. <br/>
+* Derivative (D): Predicts future errors based on the rate of change. It helps smooth out oscillations and reduces overshoot.<br/>
 
 ### To tune the PID values:
 
